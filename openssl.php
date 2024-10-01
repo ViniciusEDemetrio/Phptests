@@ -18,8 +18,12 @@ $cipher_aliases = array_filter($cipher_aliases,function($c) { return stripos($c,
 // print_r($ciphers);
 // print_r($cipher_aliases);
 
-function getCiphers(){    
+function getCiphers($ciphers){    
     print_r($ciphers);
+}
+
+function criptografar($algo, $txtinput, $key){
+    
 }
 
 ?>
